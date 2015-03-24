@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB03830D1AC1581900C98FB6 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB03830C1AC1581900C98FB6 /* GLUT.framework */; };
+		EB03830F1AC1582600C98FB6 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB03830E1AC1582600C98FB6 /* OpenGL.framework */; };
+		EB0383111AC1588C00C98FB6 /* checker.c in Sources */ = {isa = PBXBuildFile; fileRef = EB0383101AC1588C00C98FB6 /* checker.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EB0383001AC157D300C98FB6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EB0383021AC157D300C98FB6 /* OpenGL_PG3e_XcodeProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenGL_PG3e_XcodeProject; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB03830C1AC1581900C98FB6 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		EB03830E1AC1582600C98FB6 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		EB0383101AC1588C00C98FB6 /* checker.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = checker.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB0382FF1AC157D300C98FB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB03830F1AC1582600C98FB6 /* OpenGL.framework in Frameworks */,
+				EB03830D1AC1581900C98FB6 /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB0382F91AC157D300C98FB6 = {
+			isa = PBXGroup;
+			children = (
+				EB0383101AC1588C00C98FB6 /* checker.c */,
+				EB03830E1AC1582600C98FB6 /* OpenGL.framework */,
+				EB03830C1AC1581900C98FB6 /* GLUT.framework */,
+				EB0383041AC157D300C98FB6 /* OpenGL_PG3e_XcodeProject */,
+				EB0383031AC157D300C98FB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB0383031AC157D300C98FB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB0383021AC157D300C98FB6 /* OpenGL_PG3e_XcodeProject */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB0383041AC157D300C98FB6 /* OpenGL_PG3e_XcodeProject */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OpenGL_PG3e_XcodeProject;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB0383011AC157D300C98FB6 /* OpenGL_PG3e_XcodeProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB0383091AC157D300C98FB6 /* Build configuration list for PBXNativeTarget "OpenGL_PG3e_XcodeProject" */;
+			buildPhases = (
+				EB0382FE1AC157D300C98FB6 /* Sources */,
+				EB0382FF1AC157D300C98FB6 /* Frameworks */,
+				EB0383001AC157D300C98FB6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenGL_PG3e_XcodeProject;
+			productName = OpenGL_PG3e_XcodeProject;
+			productReference = EB0383021AC157D300C98FB6 /* OpenGL_PG3e_XcodeProject */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB0382FA1AC157D300C98FB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = wangbo;
+				TargetAttributes = {
+					EB0383011AC157D300C98FB6 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = EB0382FD1AC157D300C98FB6 /* Build configuration list for PBXProject "OpenGL_PG3e_XcodeProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EB0382F91AC157D300C98FB6;
+			productRefGroup = EB0383031AC157D300C98FB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB0383011AC157D300C98FB6 /* OpenGL_PG3e_XcodeProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB0382FE1AC157D300C98FB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0383111AC1588C00C98FB6 /* checker.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EB0383071AC157D300C98FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EB0383081AC157D300C98FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EB03830A1AC157D300C98FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB03830B1AC157D300C98FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB0382FD1AC157D300C98FB6 /* Build configuration list for PBXProject "OpenGL_PG3e_XcodeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB0383071AC157D300C98FB6 /* Debug */,
+				EB0383081AC157D300C98FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB0383091AC157D300C98FB6 /* Build configuration list for PBXNativeTarget "OpenGL_PG3e_XcodeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB03830A1AC157D300C98FB6 /* Debug */,
+				EB03830B1AC157D300C98FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB0382FA1AC157D300C98FB6 /* Project object */;
+}
