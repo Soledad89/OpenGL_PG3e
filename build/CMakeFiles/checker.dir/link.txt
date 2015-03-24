@@ -1,0 +1,1 @@
+/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/checker.dir/checker.c.o  -o checker  -framework AGL -framework OpenGL -framework GLUT -framework Cocoa 
